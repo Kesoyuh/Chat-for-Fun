@@ -12,16 +12,18 @@
 		000174791D6AEE28006F6CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000174771D6AEE28006F6CD0 /* Main.storyboard */; };
 		0001747B1D6AEE29006F6CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0001747A1D6AEE29006F6CD0 /* Assets.xcassets */; };
 		0001747E1D6AEE29006F6CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0001747C1D6AEE29006F6CD0 /* LaunchScreen.storyboard */; };
+		000174871D6AF7D5006F6CD0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000174861D6AF7D5006F6CD0 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000174701D6AEE28006F6CD0 /* Chat-for-Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat-for-Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000174701D6AEE28006F6CD0 /* Chat for Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat for Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		000174731D6AEE28006F6CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		000174751D6AEE28006F6CD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		000174781D6AEE28006F6CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0001747A1D6AEE29006F6CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0001747D1D6AEE29006F6CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0001747F1D6AEE29006F6CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000174861D6AF7D5006F6CD0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		000174671D6AEE28006F6CD0 = {
 			isa = PBXGroup;
 			children = (
-				000174721D6AEE28006F6CD0 /* Chat-for-Fun */,
+				000174721D6AEE28006F6CD0 /* Chat for Fun */,
 				000174711D6AEE28006F6CD0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,40 @@
 		000174711D6AEE28006F6CD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000174701D6AEE28006F6CD0 /* Chat-for-Fun.app */,
+				000174701D6AEE28006F6CD0 /* Chat for Fun.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		000174721D6AEE28006F6CD0 /* Chat-for-Fun */ = {
+		000174721D6AEE28006F6CD0 /* Chat for Fun */ = {
 			isa = PBXGroup;
 			children = (
+				000174851D6AF786006F6CD0 /* Controller */,
 				000174731D6AEE28006F6CD0 /* AppDelegate.swift */,
-				000174751D6AEE28006F6CD0 /* ViewController.swift */,
 				000174771D6AEE28006F6CD0 /* Main.storyboard */,
 				0001747A1D6AEE29006F6CD0 /* Assets.xcassets */,
 				0001747C1D6AEE29006F6CD0 /* LaunchScreen.storyboard */,
 				0001747F1D6AEE29006F6CD0 /* Info.plist */,
 			);
+			name = "Chat for Fun";
 			path = "Chat-for-Fun";
+			sourceTree = "<group>";
+		};
+		000174851D6AF786006F6CD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				000174751D6AEE28006F6CD0 /* ViewController.swift */,
+				000174861D6AF7D5006F6CD0 /* LoginController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0001746F1D6AEE28006F6CD0 /* Chat-for-Fun */ = {
+		0001746F1D6AEE28006F6CD0 /* Chat for Fun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000174821D6AEE29006F6CD0 /* Build configuration list for PBXNativeTarget "Chat-for-Fun" */;
+			buildConfigurationList = 000174821D6AEE29006F6CD0 /* Build configuration list for PBXNativeTarget "Chat for Fun" */;
 			buildPhases = (
 				0001746C1D6AEE28006F6CD0 /* Sources */,
 				0001746D1D6AEE28006F6CD0 /* Frameworks */,
@@ -79,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Chat-for-Fun";
+			name = "Chat for Fun";
 			productName = "Chat-for-Fun";
-			productReference = 000174701D6AEE28006F6CD0 /* Chat-for-Fun.app */;
+			productReference = 000174701D6AEE28006F6CD0 /* Chat for Fun.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0001746B1D6AEE28006F6CD0 /* Build configuration list for PBXProject "Chat-for-Fun" */;
+			buildConfigurationList = 0001746B1D6AEE28006F6CD0 /* Build configuration list for PBXProject "Chat for Fun" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0001746F1D6AEE28006F6CD0 /* Chat-for-Fun */,
+				0001746F1D6AEE28006F6CD0 /* Chat for Fun */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000174761D6AEE28006F6CD0 /* ViewController.swift in Sources */,
+				000174871D6AF7D5006F6CD0 /* LoginController.swift in Sources */,
 				000174741D6AEE28006F6CD0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +265,7 @@
 				INFOPLIST_FILE = "Chat-for-Fun/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.unimelb.722762.Chat-for-Fun";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Chat for Fun";
 			};
 			name = Debug;
 		};
@@ -263,14 +276,14 @@
 				INFOPLIST_FILE = "Chat-for-Fun/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.unimelb.722762.Chat-for-Fun";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Chat for Fun";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0001746B1D6AEE28006F6CD0 /* Build configuration list for PBXProject "Chat-for-Fun" */ = {
+		0001746B1D6AEE28006F6CD0 /* Build configuration list for PBXProject "Chat for Fun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				000174801D6AEE29006F6CD0 /* Debug */,
@@ -279,13 +292,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000174821D6AEE29006F6CD0 /* Build configuration list for PBXNativeTarget "Chat-for-Fun" */ = {
+		000174821D6AEE29006F6CD0 /* Build configuration list for PBXNativeTarget "Chat for Fun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				000174831D6AEE29006F6CD0 /* Debug */,
 				000174841D6AEE29006F6CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
